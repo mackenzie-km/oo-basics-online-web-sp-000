@@ -2,8 +2,8 @@ class Book
   @@all = []
     attr_accessor :author, :page_count, :genre
   
-  def title
-    #pick up here!
+  def title=(title)
+    @title = title 
   end
   
   def initialize(title)
