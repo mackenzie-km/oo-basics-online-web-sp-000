@@ -6,6 +6,11 @@ class Book
     @title = title 
   end
   
+  def title
+   @title
+  end
+
+  
   def initialize(title)
     @title = title
     @@all << @title 
